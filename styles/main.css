@@ -191,23 +191,20 @@ a {
   position: absolute;
   /*border: 1px solid cyan;*/
   width: 100%;
-  height: 180px;
-  margin-top: 620px;
+  height: 130px;
+  margin-top: 650px;
   background-color: #000;
   color: #fff;
   opacity: 0.6;
-}
-
-.hire_text {
-  margin: 20px;
   line-height: 1.3;
+  padding-top: 40px;
 }
 
-.hire_text h1 {
-  font-size: 3.2em;
+#hire h1 {
+  font-size: 3em;
 }
 
-.hire_text ul li {
+#hire ul li {
   display: inline-block;
   font-size: 1.5em;
   padding: 0 10px;
@@ -219,45 +216,59 @@ a {
 #how_it_works {
   /*border: 1px solid tomato;*/
   max-width: 100%;
-  height: 420px;
+  /*height: 420px;*/
   background-color: #f7f7f7;
   margin: 0;
-  padding: 10px;
-}
-
-#how_it_works_text {
+  padding: 5% 5%;
   /*border: 1px solid maroon;*/
   color: #888;
-  max-width: 100%;
 }
 
-#how_it_works_text h1 {
+#how_it_works h1 {
   /*border: 1px solid pink;*/
-  margin: 100px auto 0;
-  font-size: 45px;
+  margin: 5% 10% 5%;
+  font-size: 3em;
 }
 
-#how_it_works ul li {
-  /*border: 1px solid red;*/
-  width: 160px;
-  height: 134px;
-  display: inline-block;
-  margin: 80px auto 10px;
+#how_it_works ul {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-between;
 }
+
+/*#how_it_works ul li {
+  border: 1px solid red;
+  width: 15%;
+  height: 30%;
+  display: inline-block;
+  /*margin: 80px auto 10px;
+} */
 
 #how_it_works ul li p {
-  font-size: 17px;
-  max-width: 100%;
-  height: 30px;
+  font-size: 1.0625em;
+  /*max-width: 100%;
+  height: 30px;*/
 }
 
-.post_job {
+/*.post_job {
   margin-bottom: 20px;
+}
+*/
+/*.post_job img {
+  width: 35%;
+  height: 45%;
+}*/
+
+/*.how_it_works_nav {
+  background-color: maroon;
 }
 
 .how_it_works_nav img {
   padding: 32px 0;
-}
+  width: 20%;
+  height: 20%;
+}*/
 
 /* ********* LOOKING FOR A JOB SECTION ********
     This is the third div layer   */
@@ -291,7 +302,7 @@ a {
 #our_partners {
   /*border: 1px solid orange;*/
   max-width: 100%;
-  height: 386px;
+  /*height: 386px;*/
 }
 
 .our_partners_text {
@@ -359,7 +370,7 @@ footer ul li {
 }
 
 footer ul li a {
-  font-size: 12px;
+  font-size: 0.75em;
   color: #b4b4b4;
 }
 

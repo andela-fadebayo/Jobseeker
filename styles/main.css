@@ -1,10 +1,9 @@
-/* Andela Job Seeker - Project 1  |  Fiyin Adebayo 
-    15th November 2014    */
+/* Andela : Job Seeker - Project 2  |  Fiyin Adebayo 
+    15th - 17th November 2014    */
 
 
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
-  License: none (public domain)
-*/
+  License: none (public domain)   */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -50,6 +49,7 @@ table {
   border-spacing: 0;
 }
 
+
 /* ********* GENERAL ******** */
 
 body {
@@ -66,11 +66,11 @@ a {
 
 #main {
   max-width: 100%;
-  /*width: 1350px;*/
   position: relative;
   margin: 0 auto;
   background-color: #fff;
 }
+
 
 /* ********* TOP HEADER ********
     This is the first div layer   */
@@ -80,7 +80,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   height: 800px;
   max-width: 100%;
@@ -89,7 +89,6 @@ a {
 #header {
   width: 99.8%;
   height: 62px;
-  /*border: 1px solid red;*/
   background-color: white;
   opacity: 0.7;
   position: absolute;
@@ -97,8 +96,7 @@ a {
   z-index: 5;
 }
 
-#ul {
-  /*border: 1px solid blue;*/
+#top_menu {
   width: 50%;
   position: absolute;
   right: 0;
@@ -106,19 +104,19 @@ a {
   margin: 20px 5px;
 }
 
-#ul a {
+#top_menu a {
   color: #000;
 }
 
-#ul a:hover {
+#top_menu a:hover {
   text-decoration: underline;
 }
 
-#ul a:visited {
+#top_menu a:visited {
   color: #000;
 }
 
-#ul ul li {
+#top_menu ul li {
   display: inline-block;
   list-style: none;
   padding-left: 30px;
@@ -126,14 +124,7 @@ a {
 }
 
 #logo {
-  /*max-width: 100%;*/
-  /*width: 245px;
-  height: 165px;*/
-  /*border: 1px solid green;*/
-  /*margin: 20px 0 0 100px;*/
-  margin: 5% 0 0 5%;
-  /*background-image: url("../images/logo.png");
-  background-repeat: no-repeat;*/
+  margin: 3% 0 0 5%;
   position: absolute;
   z-index: 20;
   opacity: .9;
@@ -145,7 +136,6 @@ a {
 }
 
 #post {
-  /*border: 1px solid purple;*/
   width: 450px;
   height: 330px;
   margin: 18% 0 0 10%;
@@ -189,7 +179,6 @@ a {
 
 #hire {
   position: absolute;
-  /*border: 1px solid cyan;*/
   width: 100%;
   height: 130px;
   margin-top: 650px;
@@ -210,22 +199,19 @@ a {
   padding: 0 10px;
 }
 
+
 /* ********* HOW IT WORKS SECTION ********
     This is the second div layer   */
 
 #how_it_works {
-  /*border: 1px solid tomato;*/
   max-width: 100%;
-  /*height: 420px;*/
   background-color: #f7f7f7;
   margin: 0;
   padding: 5% 5%;
-  /*border: 1px solid maroon;*/
   color: #888;
 }
 
 #how_it_works h1 {
-  /*border: 1px solid pink;*/
   margin: 5% 10% 5%;
   font-size: 3em;
 }
@@ -234,49 +220,21 @@ a {
   display: flex;
   display: -webkit-flex;
   -webkit-flex-direction: row;
+  -moz-box-flex-direction: row;
   -webkit-justify-content: space-between;
+  -moz-box-justify-content: space-between;
 }
-
-/*#how_it_works ul li {
-  border: 1px solid red;
-  width: 15%;
-  height: 30%;
-  display: inline-block;
-  /*margin: 80px auto 10px;
-} */
 
 #how_it_works ul li p {
   font-size: 1.0625em;
-  /*max-width: 100%;
-  height: 30px;*/
 }
 
-/*.post_job {
-  margin-bottom: 20px;
-}
-*/
-/*.post_job img {
-  width: 35%;
-  height: 45%;
-}*/
-
-/*.how_it_works_nav {
-  background-color: maroon;
-}
-
-.how_it_works_nav img {
-  padding: 32px 0;
-  width: 20%;
-  height: 20%;
-}*/
 
 /* ********* LOOKING FOR A JOB SECTION ********
     This is the third div layer   */
 
 #looking_for_job {
-  /*border: 1px solid;*/
   max-width: 100%;
-  /*height: 428px;*/
   background-image: url("../images/looking_for_job_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -296,13 +254,12 @@ a {
   margin-top: 30px;
 }
 
-/* ********* OUR PARTNERS ********
+
+/* ********* OUR PARTNERS SECTION ********
     This is the fourth div layer   */
 
 #our_partners {
-  /*border: 1px solid orange;*/
   max-width: 100%;
-  /*height: 386px;*/
 }
 
 .our_partners_text {
@@ -313,22 +270,17 @@ a {
 .our_partners_text h1 {
   font-size: 50px;
   color: #9a9a9a;
-  /*border: 1px solid cyan;*/
   margin: 40px auto 10px;
 }
 
 .our_partners_text ul {
-  /*border: 1px dotted maroon;*/
   padding-top: 30px;
   display: -webkit-flex;
   -webkit-flex-direction: row;
+  -moz-flex-direction: row;
   -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
 }
-
-/*.our_partners_text ul li {
-  display: inline-block;
-  margin: 60px 20px 0;
-}*/
 
 .our_partners_logo {
   border: 1px solid #ededed;
@@ -347,11 +299,11 @@ a {
   margin-top: 40px;
 }
 
+
 /* ********* FOOTER ********
     This is the fifth and last div layer   */
 
 footer {
-  /*border: 1px solid maroon;*/
   border-top: 5px solid #208b0a;
   max-width: 100%;
   height: 88px;

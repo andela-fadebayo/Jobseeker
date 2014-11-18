@@ -1,0 +1,389 @@
+ /* *******************************************
+	Andela Project 2 - Jobseeker
+	This holds the media query rules for 
+	the responsiveness of Jobseeker's homepage.
+	*******************************************  */
+
+
+/*  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	Layout for smaller monitors and tablets 
+	------------------------------------------------------------  */
+@media screen and (min-width: 768px) and (max-width: 1124px) {
+
+	/* ***** GENERAL SECTION for (min-width: 768px) and (max-width: 1124px) ***** */
+	#top {
+		width: 100%;
+		background-size: contain;
+		background-position: center top;
+	}
+
+	#logo {
+		margin: 5% 0 0 5%;
+	}
+
+	#logo img {
+		width: 70%;
+		height: 65%;
+		background-size: contain;
+
+	}
+
+	#top_menu {
+		width: 50%;
+	}
+
+	#top_menu ul li {
+		display: inline-block;
+		list-style: none;
+		padding: 5px 0 5px 30px;
+		font-size: 0.80em;
+	}
+
+	#post {
+		width: 450px;
+		height: 330px;
+		margin: 28% 0 0 10%;
+		padding: 10px;
+		position: absolute;
+		text-align: left;
+		line-height: 1.6;
+	}
+
+	#post h1 {
+		font-size: 2.3125em;
+		font-weight: bold;
+		padding-left: 20px;
+	}
+
+	#post p {
+		font-size: 1.2625em;
+		line-height: 1.5;
+		padding-left: 20px;
+	}
+
+	#hire {
+		height: 130px;
+		margin-top: 670px;
+		padding-top: 20px;
+	}
+
+	#hire h1 {
+		font-size: 2.3em;
+	}
+
+	#hire ul li {
+ 		font-size: 1.1em;
+ 		padding: 0 10px;
+	}
+
+	/* ********* HOW IT WORKS SECTION for (min-width: 768px) and (max-width: 1124px) ******** */
+
+	.post_job img {
+  		width: 55%;
+  		height: 65%;
+  	}
+
+  	.how_it_works_nav img {
+  		width: 75%;
+  		height: 75%;
+	}
+
+	#how_it_works ul li p {
+		font-size: 0.925em;
+	}
+
+	/*  *********** OUR PARTNERS for (min-width: 768px) and (max-width: 1124px)  ********* */
+
+	.our_partners_text h1 {
+		font-size: 2.725em;
+		margin: 60px auto 2px;
+	}
+
+	.our_partners_text ul {
+  		padding: 10%;
+		-webkit-flex-direction: row;
+		-moz-box-flex-direction: row;
+		-webkit-justify-content: space-between;
+		-moz-box-justify-content: space-between;
+	}
+	.our_partners_logo {
+  		border: 1px solid #ededed;
+  		width: 98%;
+  		height: 80%;
+  		padding: 5%;
+	}
+
+	.our_partners_logo img {
+		width: 60%;
+		height: 20%;
+	}
+
+	.logo4 img {
+		margin-top: 0;
+	}
+}
+
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	Layout for larger screen phones and some tablets
+	---------------------------------------------------------------- */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+	
+	/* *****  GENERAL for (min-width: 480px) and (max-width: 768px) ***** */
+	#top {
+		background-size: contain;
+		background-position: center top;
+		height: 400px;
+	}
+
+	#logo img {
+		width: 55%;
+		height: 50%;
+		background-size: contain;
+	}
+
+	#top_menu {
+		width: 60%;
+	}
+
+	#top_menu ul li {
+		display: inline-block;
+		padding: 5px 0 5px 30px;
+		font-size: 0.9em;
+	}
+
+	#post {
+		width: 300px;
+		height: 160px;
+		margin: 25% 0 0 10%;
+		padding: 10px;
+		position: absolute;
+		text-align: left;
+		line-height: 1.6;
+	}
+
+	#post h1 {
+		font-size: 1.9125em;
+		font-weight: bold;
+		padding-left: 20px;
+	}
+
+	#post p {
+		font-size: 0.9125em;
+		line-height: 1.5;
+		padding-left: 20px;
+	}
+
+	#hire {
+		display: none;
+		height: 8%;
+		margin-top: 56%;
+		line-height: 0;
+	}
+
+	#hire h1 {
+		font-size: 0.8125em;
+	}
+
+	#hire ul li {
+		display: inline-block;
+		font-size: 0.4125px;		
+	}
+
+	.post_button, .get_started_button {
+		width: 162px;
+		height: 50px;
+		font-size: 1.1em;
+	}
+
+	/* ********* HOW IT WORKS SECTION for (min-width: 480px) and (max-width: 768px) ******** */
+
+	#how_it_works h1 {
+		font-size: 2.125em;
+	}
+
+	#how_it_works ul li p {
+		font-size: 0.654em;
+	}
+
+	.post_job img {
+  		width: 40%;
+  		height: 50%;
+  	}
+
+  	.how_it_works_nav img {
+  		width: 60%;
+  		height: 60%;
+	}
+
+	/*  *********** OUR PARTNERS for (min-width: 480px) and (max-width: 768px)  ********* */
+
+	.our_partners_text h1 {
+		font-size: 2.3em;
+	}
+
+	.our_partners_text ul {
+  		padding: 10%;
+		-webkit-flex-direction: row;
+		-moz-box-flex-direction: row;
+		-webkit-justify-content: space-between;
+		-moz-box-justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+		-moz-box-flex-wrap: wrap;
+	}
+
+	.our_partners_logo {
+  		border: 1px solid #ededed;
+  		width: 98%;
+  		height: 80%;
+   		padding: 5%;
+	}
+
+	.our_partners_logo img {
+		width: 60%;
+		height: 20%;
+	}
+
+	.logo4 img {
+		margin-top: 0;
+	}
+
+}
+
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	Layout for very small screens - phones and small mobile devices 
+	------------------------------------------------------------------  */
+@media screen and (max-width: 480px) {
+
+	/* ********* GENERAL SECTION for (max-width: 480px) ************ */
+	#top {
+		background-size: contain;
+		background-position: center top;
+		height: 270px;
+	}
+
+	#logo {
+		left: 3;
+		margin: 4% 0 0 -8%;
+	}
+
+	#logo img {
+		width: 35%;
+		height: 30%;
+		background-size: contain;
+
+	}
+
+	#top_menu {
+		width: 60%;
+	}
+
+	#top_menu ul li {
+		display: inline-block;
+		padding: 5px 0 5px 30px;
+		font-size: 0.6em;
+	}
+
+
+	#post {
+		width: 200px;
+		height: 160px;
+		margin: 18% 0 0 10%;
+		padding: 10px;
+		position: absolute;
+		text-align: left;
+		line-height: 1.6;
+	}
+
+	#post h1 {
+		font-size: 1.7125em;
+		font-weight: bold;
+		padding-left: 20px;
+	}
+
+	#post p {
+		font-size: 0.7125em;
+		line-height: 1.5;
+		padding-left: 20px;
+	}
+
+	#hire {
+		display: none;
+	}
+
+	/* ********* HOW IT WORKS SECTION for (max-width: 480px) ******** */
+
+	#how_it_works h1 {
+		font-size: 1.8125em;
+	}
+
+	#how_it_works ul li p {
+		font-size: 0.554em;
+	}
+
+	.post_job img {
+  		width: 30%;
+  		height: 40%;
+  	} 
+
+  	.how_it_works_nav {
+  		display: none;
+	}
+
+	/* ******* LOOKING FOR A JOB SECTION for (max-width: 480px) *******   */
+	#looking_for_job h1 {
+  		font-size: 1.8125em;
+  		margin-bottom: 50px;
+	}
+
+	#looking_for_job p {
+  		font-size: 0.81em;
+	}
+
+	.post_button, .get_started_button {
+		width: 142px;
+		height: 30px;
+		font-size: 0.9em;
+	}
+
+	/* ********* OUR PARTNERS for (max-width: 480px) ********    */
+
+	.our_partners_text h1 {
+		font-size: 1.8125em;
+	}
+
+	.our_partners_text ul {
+  		padding: 10%;
+		-webkit-flex-direction: row;
+		-moz-box-flex-direction: row;
+		-webkit-justify-content: space-between;
+		-moz-box-justify-content: space-between;
+		-webkit-flex-wrap: wrap;
+		-moz-box-flex-wrap: wrap;
+	}
+	.our_partners_logo {
+  		border: 1px solid #ededed;
+  		width: 95%;
+  		height: 70%;
+  		padding: 5%;
+	}
+
+	.our_partners_logo img {
+		width: 40%;
+		height: 10%;
+	}
+
+	.logo4 img {
+		margin-top: 0;
+	}
+
+	/* **************  FOOTER for (max-width: 480px) ***************  */
+	footer ul li a {
+		font-size: 0.5625em;
+	}
+}
+
+/* 	***************************************
+	END OF RESPONSIVE STYLES 
+	***************************************   */

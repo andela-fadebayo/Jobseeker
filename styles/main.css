@@ -1,0 +1,333 @@
+/* Andela : Job Seeker - Project 2  |  Fiyin Adebayo 
+    15th - 17th November 2014    */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)   */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* ********* GENERAL ******** */
+
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: kalinga, 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main {
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+
+/* ********* TOP HEADER ********
+    This is the first div layer   */
+
+#top {
+  background-image: url('../images/top_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 800px;
+  max-width: 100%;
+}
+
+#header {
+  width: 99.8%;
+  height: 62px;
+  background-color: white;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
+#top_menu {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  z-index: 30;
+  margin: 20px 5px;
+}
+
+#top_menu a {
+  color: #000;
+}
+
+#top_menu a:hover {
+  text-decoration: underline;
+}
+
+#top_menu a:visited {
+  color: #000;
+}
+
+#top_menu ul li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 30px;
+  font-size: 1.2em;
+}
+
+#logo {
+  margin: 3% 0 0 5%;
+  position: absolute;
+  z-index: 20;
+  opacity: .9;
+}
+
+#logo img {
+  width: 80%;
+  height: 60%;
+}
+
+#post {
+  width: 450px;
+  height: 330px;
+  margin: 18% 0 0 10%;
+  padding: 10px;
+  position: absolute;
+  text-align: left;
+  line-height: 1.6;
+}
+
+#post h1 {
+  font-size: 2.6125em;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#post p {
+  font-size: 1.3625em;
+  line-height: 1.5;
+  padding-left: 20px;
+}
+
+#post form {
+  text-align: left;
+  margin: 20px;
+}
+
+.post_button, .get_started_button {
+  width: 242px;
+  height: 60px;
+  background-color: #208b0a;
+  outline: 0;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+  font-family: "AvantGarde Bk BT";
+}
+
+#post .post_button:hover, .get_started_button:hover {
+  background-color: #25a20d;
+}
+
+#hire {
+  position: absolute;
+  width: 100%;
+  height: 130px;
+  margin-top: 650px;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.6;
+  line-height: 1.3;
+  padding-top: 40px;
+}
+
+#hire h1 {
+  font-size: 3em;
+}
+
+#hire ul li {
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 0 10px;
+}
+
+
+/* ********* HOW IT WORKS SECTION ********
+    This is the second div layer   */
+
+#how_it_works {
+  max-width: 100%;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 5% 5%;
+  color: #888;
+}
+
+#how_it_works h1 {
+  margin: 5% 10% 5%;
+  font-size: 3em;
+}
+
+#how_it_works ul {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -moz-box-flex-direction: row;
+  -webkit-justify-content: space-between;
+  -moz-box-justify-content: space-between;
+}
+
+#how_it_works ul li p {
+  font-size: 1.0625em;
+}
+
+
+/* ********* LOOKING FOR A JOB SECTION ********
+    This is the third div layer   */
+
+#looking_for_job {
+  max-width: 100%;
+  background-image: url("../images/looking_for_job_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 0;
+}
+
+#looking_for_job h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#looking_for_job p {
+  font-size: 20px;
+}
+
+#looking_for_job form {
+  margin-top: 30px;
+}
+
+
+/* ********* OUR PARTNERS SECTION ********
+    This is the fourth div layer   */
+
+#our_partners {
+  max-width: 100%;
+}
+
+.our_partners_text {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.our_partners_text h1 {
+  font-size: 50px;
+  color: #9a9a9a;
+  margin: 40px auto 10px;
+}
+
+.our_partners_text ul {
+  padding-top: 30px;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+}
+
+.our_partners_logo {
+  border: 1px solid #ededed;
+  width: 255px;
+  height: 162px;
+  margin: 20px auto 50px;
+}
+
+.our_partners_logo img {
+  max-width: 100%;
+  margin: 20px 0;
+  position: center;
+}
+
+.logo4 img {
+  margin-top: 40px;
+}
+
+
+/* ********* FOOTER ********
+    This is the fifth and last div layer   */
+
+footer {
+  border-top: 5px solid #208b0a;
+  max-width: 100%;
+  height: 88px;
+  background-color: #333;
+}
+
+footer ul {
+  float: left;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+footer ul li {
+  display: inline;
+  padding-right: 20px;
+}
+
+footer ul li a {
+  font-size: 0.75em;
+  color: #b4b4b4;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ********* THE END ********  */

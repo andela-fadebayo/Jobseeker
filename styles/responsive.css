@@ -190,7 +190,7 @@
 		font-size: 0.4125px;		
 	}
 
-	.post_button, .get_started_button {
+	.button {
 		width: 162px;
 		height: 50px;
 		font-size: 1.1em;
@@ -341,7 +341,7 @@
   		font-size: 0.81em;
 	}
 
-	.post_button, .get_started_button {
+	.button {
 		width: 142px;
 		height: 30px;
 		font-size: 0.9em;
